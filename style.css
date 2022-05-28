@@ -10,12 +10,14 @@ body{
     align-items: center;
 }
 #input-container{
+    border-radius: 10px 10px 0px 0px;
     background-image: linear-gradient(to bottom left, #585DFE,#FB3796);
     width: 550px;
     height: 260px;
     text-align: center;
 }
 #result-container{
+    border-radius:0px 0px 10px 10px;
     background-color: #1f2937;
     width: 550px;
     height: 290px;
