@@ -1,0 +1,58 @@
+body{
+    font-family: 'Inter';
+    font-style: normal;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#input-container{
+    background-image: linear-gradient(to bottom left, #585DFE,#FB3796);
+    width: 550px;
+    height: 260px;
+    text-align: center;
+}
+#result-container{
+    background-color: #1f2937;
+    width: 550px;
+    height: 290px;
+    text-align: center;
+    font-size: 14px;
+}
+#length{
+    padding-top: 25px;
+}
+h1{
+    font-size: 22px;
+    padding-top: 56px;
+}
+input{
+    background-color: transparent;
+    font-size: 90px;
+    font-weight: 800;
+    line-height: 24px;
+    width:520px;
+    text-align: center;
+    border: transparent;
+    color: white;
+    
+}
+span{
+    color: #D2D2D2;
+}
+
+/*deleting arrows from inpupt*/
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
